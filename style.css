@@ -1,0 +1,368 @@
+body{
+   margin: 0;
+   padding: 0;
+   height: auto;
+   font-family: 'Caveat', cursive;
+}
+nav{
+    background-color: #1768AC;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav button{
+    display: none;
+    margin-left: 90%;
+}
+nav ul{
+    margin-left: 70%;
+    }
+nav ul li{
+    display: inline;
+    list-style-type: none;
+}
+nav ul li a{
+    font-family: 'Patrick Hand', cursive;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5%;
+   }
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+nav #logo{
+    float: left;
+    margin-left: -0.1%;
+    width: 100px;
+     height: 100px;
+}
+text p{
+    font-family: 'Patrick Hand', cursive;
+ }
+#pic{
+    margin: 1%;
+    width: 40%;
+    height: 700px;
+    background-image: url(./images/4_5866445844777011562.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-top: -300px;
+    margin-left: -20px;
+   }
+ #text{
+     margin-bottom: -10%;
+     margin-top: 10%;
+     height: 650px;
+     width: 100%;
+ }
+.animation h1{
+    margin-top: 0%;
+    margin-left: 30%;
+    font-size: 60px;
+    }
+.animation p{
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 30px;
+}
+#h1 {
+   font-size: 28px;
+   text-align: center;
+}
+span{
+    color: rgb(119, 32, 190);
+    font-weight: bold;
+    font-style: italic;
+ }
+.about{
+    font-size: 20px;
+    font-family: 'Patrick Hand', cursive;
+}
+#about{
+    max-width: 75%;
+    margin: auto;
+    margin-top: 10%;
+  }
+.about h1{
+  color: rgb(119, 32, 190);
+  padding-top: 4%;
+}
+table{
+    width: 100%;
+    border: solid  #566787 5px;
+    box-shadow: 0px 5px 25px 2px black;;
+}
+th{
+    text-align: center;
+    height: 40px;
+    color: black;
+    background-color:  #566787;
+ }
+td{
+    text-align: left;
+    height: 40px;
+}
+tr:nth-child(odd){
+    background-color: #566787;
+}
+#work{
+    padding-top: 10%;
+    width: 90%;
+    padding: 10px;
+    margin-top: 40px;
+    box-shadow: 0px 5px 25px 2px black;
+}
+#experiences{
+    padding-top: 30%;
+    width: 90%;
+    padding: 30px;
+    background-color: #566787 ;
+    color: white;
+    border-radius: 20%;
+    }
+#references{
+    padding-top: 30%;
+    width: 80%;
+    margin-top: 50px;
+    background-color: #566787 ;
+    padding: 2%;
+    border-radius: 2%;
+    color: white;
+ }
+ #Competences{
+     box-shadow: 0px 5px 25px 2px black;
+     padding: 20px;
+ }
+#skill{
+    max-width: 80%;
+    margin: auto;
+    margin-top: -5%;
+    display: flex;
+    
+ }
+ .skill{
+    font-family: 'Patrick Hand', cursive;
+ }
+ .skill h1{
+    
+    margin-top: 10%;
+ }
+.skill h2{
+    text-align: center;
+    color: rgb(119, 32, 190);
+ }
+#tool{
+    padding: 10%;
+  
+    }
+#language{
+    padding: 10%;
+   }
+  #soft{
+    padding: 10%;
+   }
+#one, #two, #three, #four, #five{
+      margin: 5%;
+      box-shadow: 10px 0px 10px 0px black;
+    }
+#iframe{
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+#contact{
+       font-size: 20px;
+        max-width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+  }
+.contact{
+    font-family: 'Patrick Hand', cursive;
+  }
+.contact h1{
+    margin-top: 10%;
+    font-family: 'Indie Flower', cursive;
+    }
+#form{
+      margin: 5%; 
+      width: 40%;
+      padding-top: 5%;
+      background-color: #566787;
+      padding: 10%;
+      box-shadow: 0px 0px 10px 5px gray;
+      border-radius: 20px;
+  }
+ #image{
+      width: 40%;
+      padding-left: 10%;
+  }
+#picture{
+      padding-top: 40%;
+      margin: 2%; 
+      width: 100%;
+      height: 60%;
+  }
+#name1, #name2, #tele, #email{
+      margin: 10px;
+      width: 95%;
+      height: 40px;
+     }
+#name1:hover, #name2:hover, #tele:hover, #email:hover, #submit:hover{
+   font-size: 18px;
+  }
+#message{
+    width: 95%;
+}
+#message:hover{
+    color: #1768AC;
+    font-size: 18px;
+}
+#submit{
+    margin: 10px;
+    width: 50%;
+    height: 40px;
+    margin-left: 22%;
+    color: black;
+}
+#submit:hover{
+    background-color: #1768AC;
+    color: white;
+}
+ h1{
+     text-align: center;
+}
+#name1::placeholder, #name2::placeholder, #tele::placeholder, #email::placeholder, #message::placeholder{
+     color: black;
+}
+footer{
+    font-family: 'Patrick Hand', cursive;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 5%;
+    font-size: 80%;
+}
+
+@media (max-width: 680px) {
+    #image{
+       display: none;
+    }
+    #form{
+        width: 100%;
+        padding-top: 1%;
+        padding: 10%;
+        box-shadow: 0px 0px 15px 10px gray;
+    }
+    #contact{
+        font-size: 20px;
+         max-width: 100%;
+        }
+    #iframe{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    #skill{
+        display: flex;
+        flex-direction: column;
+    }
+    #language, #tool, #soft{
+        margin-top: -10%;
+    }
+    #one, #two, #three, #four, #five, #six{
+        margin: 5%;
+        }
+    #references{
+            width: 90%;
+            margin-top: 5%;
+            padding: 3%;
+            }
+    #experiences{
+                padding-top: 30%;
+                width: 80%;
+                padding: 30px;
+                margin: 2%;
+    }
+    #work{
+        padding-top: 10%;
+        width: 90%;
+        padding: 10px;
+        margin-top: 5%;
+        box-shadow: 0px 5px 25px 2px black;;
+    }
+    #about{
+        max-width: 90%;
+        margin: auto;
+    }
+    #pic{
+        display:none;
+        }
+     #text{
+         height: 650px;
+         width: 100%;
+         background-image: url(./images/4_5866445844777011562.jpg) ;
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         background-size: 100% 100%;
+        }
+    .animation h1{
+        margin-left: -5%;
+        font-size: 40px;
+        padding: 10px;
+        }
+    .animation p{
+        margin-top: 10%;
+        margin-left: -1%;
+        font-size: 30px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.39);
+        color: white;
+    }
+    nav{
+        height: 100px;
+        position: relative;
+        top: 0;
+        width: 100%;
+     }
+    nav ul {
+        background-color: #1768AC;
+        box-shadow:   5px 5px 100px 5px black;
+        display: none;
+        height: 100px;
+        padding: 10px;
+        width: 20%;
+     }
+   nav ul li{
+            flex-direction: column;
+            margin: 10px;
+            margin-right: 45%;
+        }
+    nav ul li a{
+            color: black;
+            margin-top: 20%;
+           }
+    nav ul li a:hover{
+            color: white;
+        }
+    nav button{
+        display: block;
+        padding: 2vw;
+        font-size: 3vh;
+        background-color: #1768AC;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        align-self: flex-start;
+    }
+    
+}
