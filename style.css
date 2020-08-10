@@ -168,7 +168,7 @@ tr:nth-child(odd){
   #soft{
     padding: 10%;
    }
-#one, #two, #three, #four, #five{
+#one, #two, #three, #four, #five, #six{
       margin: 5%;
       box-shadow: 10px 0px 10px 0px black;
     }
