@@ -1,1 +1,0 @@
-document.getElementById('intro').addEventListener("mouseover", animation);
