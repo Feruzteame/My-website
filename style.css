@@ -102,7 +102,8 @@ span{
     margin: 30px;
 }
 #listing{
-    width: 250%;
+    width: auto;
+    min-width: 250%;
     height: 400px;
     
 }
@@ -185,13 +186,16 @@ span{
 }
 footer{
     height: 50px;
-    margin-top: -5%;
-    width: 30%;
+    margin-top: -2%;
+    width: 40%;
     float: right;
     padding: 2%;
+    }
+footer a {
+    text-decoration: none;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 800px) {
     #image{
        display: none;
     }
@@ -209,7 +213,8 @@ footer{
          max-width: 100%;
         }
         #listing{
-            width: 650%;
+            width: auto;
+            min-width: 650%;
             height: 400px;
             
         }
@@ -313,5 +318,17 @@ footer{
         cursor: pointer;
         padding-top: 0%;
     }
+    #button{
+        background-color: white;
+    }
+    footer{
+        margin-right: -10px;
+    }
+    #socialMedia{
+        width: 30px;
+        height: 30px;
+
+    }
+   
     
 }
